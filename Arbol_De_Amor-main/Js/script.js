@@ -70,7 +70,7 @@ function getURLParam(name) {
 function showDedicationText() { //seguidores
   let text = getURLParam('text');
   if (!text) {
-    text = `Para mi ROUS de hermosas espinas:\n\nA pasado un buen tiempo desde nuestra primera cita.Desde entonces, tu sonrisa, tu forma de ser… todo en ti me hace sentir en especial.\n\nAlegras mis dias cada ves que te veo, amo cada caricia tuya, gracias por llenar mis días de amor.\n\nTe amo más de lo que las palabras pueden expresar.`;  } else {
+    text = `Para mi ROUS de hermosas espinas:\n\nA pasado un buen tiempo desde nuestra primera cita.Desde entonces, tu sonrisa, tu forma de ser… todo en ti me hace sentir especial.\n\nAlegras mis dias cada ves que te veo, amo cada caricia tuya, gracias por llenar mis días de amor.\n\nTe amo más de lo que las palabras pueden expresar.`;  } else {
     text = decodeURIComponent(text).replace(/\\n/g, '\n');
   }
   const container = document.getElementById('dedication-text');
